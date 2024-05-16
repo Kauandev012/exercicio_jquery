@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1{
+    margin:20px;
+    padding-right: 20px;
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: rgba(71, 58, 58, 0.6);
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.add--itens{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#nomeTarefa,
+#adionarTarefa{
+    border:none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+#nomeTarefa{
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+#adionarTarefa{
+    background-color: rgba(4, 126, 36, 0.646);
+    color:#fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#tarefalist{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+#tarefalist li{
+    list-style:none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.feito{
+    text-decoration: line-through;
+    color:#a30000;
+}
